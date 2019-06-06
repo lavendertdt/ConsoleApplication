@@ -1,21 +1,34 @@
 # ConsoleApplication
 REST API(F#)
 
-Show all stored information
+## Requirements
+
+- FSharp.Core.4.5.2
+- Newtonsoft.Json.12.0.2
+- Suave.2.5.4
+- System.ValueTuple.4.4.0
+
+## Server
+
+That will launch a server on *localhost*, with port *8080*. You can use command line option `--port=PORT` to specify a difference port.
+
+## Some operations
+
+1. Show all stored information
 ```Bash
 GET localhost:8080/radios  
 ```
-Show i's location
+2. Show i's location
 ```Bash
 GET localhost:8080/radios/i/location 
 ```
-Set i's location to loc
+3. Set i's location to loc
 ```Bash
 GET localhost:8080/radios/i/location/loc
 ```
 
 
-Initial data is show below:
+## Initial stored data 
 ```Bash
 let item = {
             device_id = 100
