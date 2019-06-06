@@ -1,19 +1,5 @@
 ﻿// Learn more about F# at http://fsharp.org
 // See the 'F# Tutorial' project for more help.
-(*namespace SuaveRestApi
-
-module App =   
-    open SuaveRestApi.Rest
-    open SuaveRestApi.Db
-    open Suave.Web
-    open Suave.Successful
-
-    [<EntryPoint>]
-    let main argv =
-      startWebServer defaultConfig (OK "HI")
-      0
-*)
-
 
 namespace SuaveRestApi
 //open System
