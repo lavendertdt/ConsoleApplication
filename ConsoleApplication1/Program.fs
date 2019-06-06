@@ -50,23 +50,3 @@ module App =
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-//
-//[<EntryPoint>]
-//let main argv = 
-//    printfn "hello"
-//    0 // return an integer exit code
-
-
